@@ -1,8 +1,12 @@
 const express = require('express');
 const cors = require('cors');
 const { searchRouter } = require('./routes');
+const yargs = require('yargs/yargs');
+const { hideBin } = require('yargs/helpers');
+const argv = yargs(hideBin(process.argv)).argv;
+
 const app = express();
-const port = 3000;
+const port = argv.port || 3000;
 
 app.use(cors());
 
