@@ -1,0 +1,30 @@
+{
+  "name": "memer-music-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Memer Music App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliangerard/memer-music-backend.git"
+  },
+  "keywords": [
+    "memer",
+    "music",
+    "backend",
+    "express",
+    "nodejs"
+  ],
+  "author": "Elian Gerard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliangerard/memer-music-backend/issues"
+  },
+  "homepage": "https://github.com/eliangerard/memer-music-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
